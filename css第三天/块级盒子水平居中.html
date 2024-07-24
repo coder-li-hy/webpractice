@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>块级盒子水平居中</title>
+  <style>
+    * {
+      /*通配符选择器，清除内外边距*/
+      /*是css中第一句需要写的代码*/
+      padding :0;
+      margin:0;
+    }
+    .header {
+      width: 960px;
+      height:200px;
+      background-color: pink;
+      /*盒子元素外边距的典型应用，将左右外边距设置为auto*/
+      margin:100px auto;
+      text-align:center;
+    }
+    span {
+      /*要想块内的文字相对于块水平居中，给父元素加上text-align:center即可*/
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <span>里面的元素</span>
+</div>
+<div class="header">
+
+</div>
+</body>
+</html>

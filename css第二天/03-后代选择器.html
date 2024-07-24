@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>复合选择器之后代选择器</title>
+    <style>
+        /*我想把ol中的li挑选出来*/
+        ol li {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+<ol>
+    <li>我是 ol的孩子</li>
+    <li>我是 ol的孩子</li>
+    <li>我是 ol的孩子</li>
+</ol>
+<ul>
+    <li>我是ul 的孩子</li>
+    <li>我是ul 的孩子</li>
+    <li>我是ul 的孩子</li>
+</ul>
+ul>li.child${我是ul的孩子$}*5
+</body>
+</html>
