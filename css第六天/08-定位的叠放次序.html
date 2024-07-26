@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位的叠放次序</title>
+    <style>
+        .box {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 200px;
+        }
+        .xiongda {
+            z-index: 1;
+            background-color: red;
+        }
+        .xionger {
+            background-color: green;
+        }
+        .qiangge {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="box xiongda"></div>
+<div class="box xionger"></div>
+<div class="box qiangge"></div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位</title>
+    <style>
+        .son {
+            position: absolute;
+            left: 30px;
+            bottom: 10px;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        .father {
+            /*position: relative;*/
+            height: 500px;
+            width: 500px;
+            background-color: skyblue;
+        }
+        .yeye {
+            position: relative;
+            width: 800px;
+            height: 800px;
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+<div class="yeye">
+    <div class="father">
+        <div class="son">
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

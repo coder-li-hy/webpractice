@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?fcegq5');
+  src:  url('fonts/icomoon.eot?fcegq5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?fcegq5') format('truetype'),
+    url('fonts/icomoon.woff?fcegq5') format('woff'),
+    url('fonts/icomoon.svg?fcegq5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-adobeacrobatreader:before {
+  content: "\e900";
+  color: #ee3f24;
+}
+.icon-adobephotoshop:before {
+  content: "\e901";
+  color: #00c8ff;
+}
+.icon-apache:before {
+  content: "\e902";
+  color: #d22128;
+}
+.icon-envato:before {
+  content: "\e903";
+  color: #81b441;
+}
+.icon-huawei:before {
+  content: "\e904";
+  color: #f00;
+}
+.icon-jetbrains:before {
+  content: "\e905";
+}
+.icon-jinja:before {
+  content: "\e906";
+  color: #b41717;
+}
+.icon-nintendoswitch:before {
+  content: "\e907";
+  color: #e60012;
+}
+.icon-opensuse:before {
+  content: "\e908";
+  color: #73ba25;
+}
+.icon-playstation:before {
+  content: "\e909";
+  color: #003791;
+}
+.icon-python:before {
+  content: "\e90a";
+  color: #3776ab;
+}
+.icon-steam:before {
+  content: "\e90b";
+}
+.icon-yamahacorporation:before {
+  content: "\e90c";
+  color: #4b1e78;
+}
+.icon-youtube:before {
+  content: "\e90d";
+  color: #f00;
+}
+.icon-aral:before {
+  content: "\e90e";
+  color: #0063cb;
+}
+.icon-archiveofourown:before {
+  content: "\e90f";
+  color: #900;
+}
+.icon-asana:before {
+  content: "\e910";
+}
+.icon-cloudbees:before {
+  content: "\e911";
+  color: #1997b5;
+}
+.icon-cmake:before {
+  content: "\e912";
+  color: #064f8c;
+}
+.icon-confluence:before {
+  content: "\e913";
+}
+.icon-fedora:before {
+  content: "\e914";
+  color: #294172;
+}
+.icon-feedly:before {
+  content: "\e915";
+  color: #2bb24c;
+}
+.icon-fujitsu:before {
+  content: "\e916";
+  color: #f00;
+}
+.icon-gog-dot-com:before {
+  content: "\e917";
+  color: #86328a;
+}
+.icon-goldenline:before {
+  content: "\e918";
+  color: #f1b92b;
+}
+.icon-linkedin:before {
+  content: "\e919";
+  color: #0077b5;
+}
+.icon-microsoftedge:before {
+  content: "\e91a";
+  color: #0078d7;
+}
+.icon-microsoftoutlook:before {
+  content: "\e91b";
+  color: #0072c6;
+}
+.icon-microsoftpowerpoint:before {
+  content: "\e91c";
+  color: #d24726;
+}
+.icon-microsoftword:before {
+  content: "\e91d";
+  color: #2b579a;
+}
+.icon-minetest:before {
+  content: "\e91e";
+  color: #53ac56;
+}
+.icon-next-dot-js:before {
+  content: "\e91f";
+}
