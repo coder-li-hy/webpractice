@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11-伪元素选择器的使用场景-字体图标</title>
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?9wdsyq');
+            src: url('fonts/icomoon.eot?9wdsyq#iefix') format('embedded-opentype'),
+            url('fonts/icomoon.ttf?9wdsyq') format('truetype'),
+            url('fonts/icomoon.woff?9wdsyq') format('woff'),
+            url('fonts/icomoon.svg?9wdsyq#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+        span {
+            font-family: 'icomoon';
+            font-size: 100px;
+            color: pink;
+        }
+        div {
+            position: relative;
+            width: 200px;
+            height: 35px;
+            border: 1px solid red;
+        }
+
+        div::after {
+            position: absolute;
+            top: 3px;
+            right: 5px;
+            content: '\e90e';
+            font-family: 'icomoon';
+            font-size: 30px;
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

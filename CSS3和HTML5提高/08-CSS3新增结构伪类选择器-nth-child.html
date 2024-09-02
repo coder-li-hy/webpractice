@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3新增结构伪类选择器-nth-child</title>
+    <style>
+        /*选择所有偶数li*/
+        ul li:nth-child(even) {
+            background-color: #cccccc;
+        }
+
+        /*选择所有奇数li*/
+        ul li:nth-child(odd) {
+            background-color: gray;
+        }
+
+        /*3.nth-child(n) 从0开始 每次+1 往后面计算 这里面必须是n 不能是其他的字母 选择了所有的孩子*/
+        ol li:nth-child(-2n+5) {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>我是第1个孩子</li>
+    <li>我是第2个孩子</li>
+    <li>我是第3个孩子</li>
+    <li>我是第4个孩子</li>
+    <li>我是第5个孩子</li>
+    <li>我是第6个孩子</li>
+    <li>我是第7个孩子</li>
+    <li>我是第8个孩子</li>
+</ul>
+<ol>
+    <li>我是第1个孩子</li>
+    <li>我是第2个孩子</li>
+    <li>我是第3个孩子</li>
+    <li>我是第4个孩子</li>
+    <li>我是第5个孩子</li>
+    <li>我是第6个孩子</li>
+    <li>我是第7个孩子</li>
+    <li>我是第8个孩子</li>
+</ol>
+</body>
+</html>

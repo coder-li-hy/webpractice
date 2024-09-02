@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>14-图片模糊处理</title>
+    <style>
+        img {
+            /*blur是函数 小括号内的数值越大，图片越糊 数值需加px单位*/
+            filter: blur(20px);
+        }
+        img:hover {
+            filter: blur(0px);
+        }
+    </style>
+</head>
+<body>
+<img src="images/pink.jpg" alt="图片加载失败">
+</body>
+</html>
